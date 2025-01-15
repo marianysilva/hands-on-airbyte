@@ -12,7 +12,7 @@ services:
       PGDATA: /data/postgres-airbytepgsrcdata
     volumes:
        - airbytepgsrcdata:/data/postgres-airbytepgsrcdata
-       - ./databases/sql:/docker-entrypoint-initdb.d
+       - ./databases/setup:/docker-entrypoint-initdb.d
     ports:
       - "5440:5432"
     restart: unless-stopped

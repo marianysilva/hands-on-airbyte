@@ -1,19 +1,19 @@
--- Order Entry Database
+-- ord_er Entry Database
 -- Execute in both Oracle and PostgreSQL
 -- Execute CREATE TABLE statements first
--- Customer table
+-- customer table
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -31,16 +31,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -58,16 +58,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -85,16 +85,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -112,16 +112,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -139,16 +139,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -166,16 +166,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -193,16 +193,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -220,16 +220,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -247,16 +247,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -274,16 +274,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -301,16 +301,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -328,16 +328,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -355,16 +355,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -382,16 +382,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -409,16 +409,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -434,18 +434,18 @@ VALUES
     CURRENT_TIMESTAMP
   );
 
--- Employee table
+-- employee table
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCommRate,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_comm_rate,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (
@@ -462,15 +462,15 @@ VALUES
 
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCommRate,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_comm_rate,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (
@@ -487,15 +487,15 @@ VALUES
 
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCommRate,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_comm_rate,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (
@@ -512,15 +512,15 @@ VALUES
 
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCommRate,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_comm_rate,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (
@@ -537,15 +537,15 @@ VALUES
 
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCommRate,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_comm_rate,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (
@@ -562,15 +562,15 @@ VALUES
 
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCommRate,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_comm_rate,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (
@@ -587,14 +587,14 @@ VALUES
 
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (
@@ -608,17 +608,17 @@ VALUES
     CURRENT_TIMESTAMP
   );
 
--- Product table
+-- product table
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -634,14 +634,14 @@ VALUES
 
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -657,14 +657,14 @@ VALUES
 
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -680,14 +680,14 @@ VALUES
 
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -703,14 +703,14 @@ VALUES
 
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -726,14 +726,14 @@ VALUES
 
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -749,14 +749,14 @@ VALUES
 
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -772,14 +772,14 @@ VALUES
 
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -795,14 +795,14 @@ VALUES
 
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -818,14 +818,14 @@ VALUES
 
 INSERT INTO
   orderdb.product (
-    ProdNo,
-    ProdName,
-    ProdMfg,
-    ProdQOH,
-    ProdNextShipDate,
-    ProdPrice,
-    ProdCreatedAt,
-    ProdUpdatedAt
+    prod_no,
+    prod_name,
+    prod_mfg,
+    prod_qoh,
+    prod_next_ship_date,
+    prod_price,
+    prod_created_at,
+    prod_updated_at
   )
 VALUES
   (
@@ -839,20 +839,20 @@ VALUES
     CURRENT_TIMESTAMP
   );
 
--- OrderTbl table
+-- order table
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -870,18 +870,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -899,18 +899,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -928,18 +928,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -957,18 +957,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -986,18 +986,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1015,18 +1015,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1044,18 +1044,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1073,18 +1073,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1102,18 +1102,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1131,18 +1131,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1160,18 +1160,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1189,18 +1189,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1218,18 +1218,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1247,18 +1247,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1276,18 +1276,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1305,18 +1305,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1334,18 +1334,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1363,18 +1363,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1392,18 +1392,18 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordertbl (
-    OrdNo,
-    OrdDate,
-    CustNo,
-    EmpNo,
-    OrdName,
-    OrdStreet,
-    OrdCity,
-    OrdState,
-    OrdZip,
-    OrdCreatedAt,
-    OrdUpdatedAt
+  orderdb.order (
+    ord_no,
+    ord_date,
+    cust_no,
+    emp_no,
+    ord_name,
+    ord_street,
+    ord_city,
+    ord_state,
+    ord_zip,
+    ord_created_at,
+    ord_updated_at
   )
 VALUES
   (
@@ -1420,14 +1420,14 @@ VALUES
     CURRENT_TIMESTAMP
   );
 
--- OrdLine table
+-- order_line table
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1439,12 +1439,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1456,12 +1456,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1473,12 +1473,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1490,12 +1490,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1507,12 +1507,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1524,12 +1524,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1541,12 +1541,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1558,12 +1558,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1575,12 +1575,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1592,12 +1592,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1609,12 +1609,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1626,12 +1626,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1643,12 +1643,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1660,12 +1660,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1677,12 +1677,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1694,12 +1694,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1711,12 +1711,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1728,12 +1728,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1745,12 +1745,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1762,12 +1762,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1779,12 +1779,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1796,12 +1796,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1813,12 +1813,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1830,12 +1830,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1847,12 +1847,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1864,12 +1864,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1881,12 +1881,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1898,12 +1898,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1915,12 +1915,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1932,12 +1932,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1949,12 +1949,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1966,12 +1966,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -1983,12 +1983,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2000,12 +2000,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2017,12 +2017,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2034,12 +2034,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2051,12 +2051,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2068,12 +2068,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2085,12 +2085,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2102,12 +2102,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2119,12 +2119,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2136,12 +2136,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2153,12 +2153,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2170,12 +2170,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2187,12 +2187,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2204,12 +2204,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (
@@ -2221,12 +2221,12 @@ VALUES
   );
 
 INSERT INTO
-  orderdb.ordline (
-    OrdNo,
-    ProdNo,
-    OrdLnQty,
-    OrdLnCreatedAt,
-    OrdLnUpdatedAt
+  orderdb.order_line (
+    ord_no,
+    prod_no,
+    ord_ln_qty,
+    ord_ln_created_at,
+    ord_ln_updated_at
   )
 VALUES
   (

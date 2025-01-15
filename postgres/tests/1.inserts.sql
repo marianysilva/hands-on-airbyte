@@ -1,15 +1,15 @@
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -27,16 +27,16 @@ VALUES
 
 INSERT INTO
   orderdb.customer (
-    CustNo,
-    CustFirstName,
-    CustLastName,
-    CustStreet,
-    CustCity,
-    CustState,
-    CustZip,
-    CustBal,
-    CustCreatedAt,
-    CustUpdatedAt
+    cust_no,
+    cust_first_name,
+    cust_last_name,
+    cust_street,
+    cust_city,
+    cust_state,
+    cust_zip,
+    cust_bal,
+    cust_created_at,
+    cust_updated_at
   )
 VALUES
   (
@@ -52,18 +52,18 @@ VALUES
     CURRENT_TIMESTAMP
   );
 
--- Employee table
+-- employee table
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCommRate,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_comm_rate,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (
@@ -80,15 +80,15 @@ VALUES
 
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCommRate,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_comm_rate,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (
@@ -105,15 +105,15 @@ VALUES
 
 INSERT INTO
   orderdb.employee (
-    EmpNo,
-    EmpFirstName,
-    EmpLastName,
-    EmpPhone,
-    EmpEMail,
-    SupEmpNo,
-    EmpCommRate,
-    EmpCreatedAt,
-    EmpUpdatedAt
+    emp_no,
+    emp_first_name,
+    emp_last_name,
+    emp_phone,
+    emp_email,
+    sup_emp_no,
+    emp_comm_rate,
+    emp_created_at,
+    emp_updated_at
   )
 VALUES
   (

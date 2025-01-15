@@ -1,5 +1,5 @@
 DELETE FROM orderdb.employee
-WHERE empno='E9345771';
+WHERE emp_no='E9345771';
 
 DELETE FROM orderdb.customer
-WHERE custno='C0954327';
+WHERE cust_no='C0954327';
