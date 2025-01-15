@@ -1,0 +1,21 @@
+services:
+  airbytepgsrcdb:
+    build:
+      context: .
+      dockerfile: postgres.dockerfile
+    image: "postgres-airbytepgsrcdb"
+    container_name: postgres_airbytepgsrcdb
+    environment:
+      POSTGRES_DB: airbytepgsrcdb
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      PGDATA: /data/postgres-airbytepgsrcdata
+    volumes:
+       - airbytepgsrcdata:/data/postgres-airbytepgsrcdata
+       - ./databases/sql:/docker-entrypoint-initdb.d
+    ports:
+      - "5440:5432"
+    restart: unless-stopped
+
+volumes:
+  airbytepgsrcdata:

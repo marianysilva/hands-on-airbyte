@@ -15,6 +15,7 @@
 
 ## Requirements
 
+- Podman Desktop (v1.15.0)
 - Docker Compose (2.32.1)
 
 ## Airbyte Core Components
@@ -27,30 +28,25 @@
 
 ## Development
 
-1. Create the `airbyte/.env` file based on the `airbyte/sample.env`
+1. Create the `postgres/.env` file based on the `postgres/sample.env`
 
-2. Run the airbyte-docker-compose.yml to create all necessary infrastructure
+2. Run the Postgres docker-compose.yml to create the Source
 
 ```
-    cd ./airbyte
-    docker-compose -f airbyte-docker-compose.yml up -d
+    cd ./postgres
+    docker-compose up -d
 ```
-
-Go to http://localhost:8000/ and use the follow environment variables from your airbyte/.env file to log in:
-
-- BASIC_AUTH_USERNAME
-- BASIC_AUTH_PASSWORD
 
 Stop the Docker Containers when nedded:
 
 ```
-docker-compose -f airbyte-docker-compose.yml stop
+    cd ./postgres
+    docker-compose stop
 ```
 
-Docker Containers Example:
-<p align="center">
-    <img src="./images/containers.png" alt="airbyte-containers" width="500"/>
-</p>
+3. Follow Airbyte > Getting Started > Quickstart [instructions](https://docs.airbyte.com/)
+
+4. Go to http://localhost:8000/ and use the credencials to log in
 
 Airbyte WebApp:
 <p align="center">
